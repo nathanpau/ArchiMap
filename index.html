@@ -1,24 +1,71 @@
 <link rel="shortcut icon" href="favicon.ico"/>
 <html>
 <head>
+<meta charset="utf-8">
 <title>
 ArchiMap
 </title>
+<style>
+      .vertical-line{
+        border-left: 2px solid #000;
+        display: inline-block;
+        height: 80%;
+        margin: 20px 20px;
+      }
+    </style>
+<style>
+      .horizontal-line{
+        border-left: 2px solid #000;
+        display: inline-block;
+        width: 80%;
+        margin: 5px 20px;
+      }
+    </style>
 </head>
+
 <!-- Contenu principal -->
-<center>
-<div style="text-align:left;background : transparent;">
+
+<body>
+<div style="float:left;background : transparent;">
 <font face="arial"; color="#000000">
 <h2>
 <big>
 <left>
 ArchiMap
+</left>
 </big>
 </h2>
 </font>
 </div>
+
+<div style="float:right;background : transparent;">
+<font face="arial"; color="#000000">
+<h3>
+<big>
+<left>
+<a href="mailto:contact.archimap@gmail.com">
+Nous contacter
+</a>
 </left>
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrWNmPztQpArIHyS?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="90%" style="background: transparent; border: 1px solid #ccc;"></iframe>
-<iframe src="https://www.google.com/maps/d/u/1/embed?mid=149LRPyWlt-06j8vi8zajy5rz7FLUcijE" width="640" height="480"></iframe>
+</big>
+</h3>
+</font>
+</div>
+
+<span class="horizontal-line"></span>
+
+<left>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrWNmPztQpArIHyS?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="66%" height="87%" style="background: transparent; border: 1px solid #ccc;">
+</iframe>
+</left>
+
+<span class="vertical-line"></span>
+
+<right>
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=149LRPyWlt-06j8vi8zajy5rz7FLUcijE"
+backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="30%" height="87%" style="background: transparent; border: 1px solid #ccc;">
+</iframe>
+</right>
+
 </body>
 </html>
